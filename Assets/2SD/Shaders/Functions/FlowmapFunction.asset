@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: FlowmapFunction
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=12101\n-1913;58;1906;1004;2640.599;-109.2003;1;True;True\nNode;AmplifyShaderEditor.CommentaryNode;36;-3258.801,-165.6999;Float;False;209.1985;857.5005;Input;5;34;35;29;38;39;;1,1,1,1;0;0\nNode;AmplifyShaderEditor.FunctionInput;34;-3203.602,588.8006;Float;False;InFlowSpeed;1;3;False;1;0;FLOAT;1.0;False;1;FLOAT\nNode;AmplifyShaderEditor.TimeNode;16;-3011.615,446.128;Float;False;0;5;FLOAT4;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;18;-2687.913,572.2299;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FractNode;19;-2198.512,571.6288;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.RangedFloatNode;23;-1615.598,746.3318;Float;False;Constant;_Float9;Float
+    9;8;0;0.5;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;24;-1373.998,650.3318;Float;False;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleDivideOpNode;25;-1135.598,653.5328;Float;False;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FractNode;22;-1929.912,672.0291;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.RangedFloatNode;20;-2482.912,763.6279;Float;False;Constant;_Float7;Float
+    7;8;0;0.5;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.SimpleAddOpNode;21;-2178.913,673.628;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleAddOpNode;11;-1062.401,285.3313;Float;True;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.CommentaryNode;37;-559.0032,-41.00002;Float;False;306.7029;804.8998;Output;3;28;33;0;;1,1,1,1;0;0\nNode;AmplifyShaderEditor.AbsOpNode;26;-887.5978,655.1339;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.CustomExpressionNode;40;-2745.094,951.6007;Float;False;
+    \ float3 flowDir = tex2D(_FlowMap, IN.texcoord) * 2.0f - 1.0f@\r$                flowDir
+    *= _FlowSpeed@\r$\r$                float phase0 = frac(_Time[1] * 0.5f + 0.5f)@\r$
+    \               float phase1 = frac(_Time[1] * 0.5f + 1.0f)@\r$\r$                half3
+    tex0 = tex2D(_MainTex, IN.texcoord + flowDir.xy * phase0)@\r$                half3
+    tex1 = tex2D(_MainTex, IN.texcoord + flowDir.xy * phase1)@\r$\r$                float
+    flowLerp = abs((0.5f - phase0) / 0.5f)@\r$                half3 finalColor = lerp(tex0,
+    tex1, flowLerp)@\r$\r$                fixed4 c = float4(finalColor, 1.0f) * IN.color@\r$
+    \               c.rgb *= c.a@\r$                return c@;1;False;1;True;In0;FLOAT;0.0;In;My
+    Custom Expression;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleAddOpNode;9;-1061.105,12.82818;Float;True;2;2;0;FLOAT2;0.0,0;False;1;FLOAT2;0.0;False;1;FLOAT2\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;15;-1664.606,411.5302;Float;True;2;2;0;FLOAT2;0.0;False;1;FLOAT;0.0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.ComponentMaskNode;3;-2738.415,-119.875;Float;False;True;True;False;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-2378.012,151.0292;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.RangedFloatNode;4;-2648.413,120.9293;Float;False;Constant;_Float3;Float
+    3;7;0;-1;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;29;-3198.801,-119.6999;Float;False;InFlowMap;4;0;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4\nNode;AmplifyShaderEditor.FunctionInput;35;-3200.802,169.0006;Float;False;InFlowPower;1;4;False;1;0;FLOAT;0.5;False;1;FLOAT\nNode;AmplifyShaderEditor.TFHCRemap;6;-2483.314,-116.075;Float;True;5;0;FLOAT2;0.0;False;1;FLOAT2;0,0;False;2;FLOAT2;1,1;False;3;FLOAT2;-0.5,-0.5;False;4;FLOAT2;0.5,0.5;False;1;FLOAT2\nNode;AmplifyShaderEditor.TextureCoordinatesNode;27;-1425.906,158.4253;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;8;-1718.71,4.82525;Float;True;2;2;0;FLOAT2;0.0;False;1;FLOAT;0.0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.FunctionInput;39;-3175.402,339.4995;Float;False;InOffset;2;2;False;1;0;FLOAT2;0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.FunctionInput;38;-3164.8,258.8997;Float;False;InTiling;1;1;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;7;-2093.412,22.92933;Float;True;2;2;0;FLOAT2;0.0;False;1;FLOAT;0.0,0;False;1;FLOAT2\nNode;AmplifyShaderEditor.FunctionOutput;28;-508.3003,653.8998;Float;False;False;OutputInterpolationValue;2;1;0;FLOAT;0.0;False;0\nNode;AmplifyShaderEditor.FunctionOutput;33;-509.0032,274.4998;Float;False;True;OutputUV1;1;1;0;FLOAT2;0.0;False;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-507.8002,8.999981;Float;False;True;OutputUV0;0;1;0;FLOAT2;0.0;False;0\nWireConnection;18;0;16;1\nWireConnection;18;1;34;0\nWireConnection;19;0;18;0\nWireConnection;24;0;23;0\nWireConnection;24;1;19;0\nWireConnection;25;0;24;0\nWireConnection;25;1;23;0\nWireConnection;22;0;21;0\nWireConnection;21;0;18;0\nWireConnection;21;1;20;0\nWireConnection;11;0;27;0\nWireConnection;11;1;15;0\nWireConnection;26;0;25;0\nWireConnection;9;0;27;0\nWireConnection;9;1;8;0\nWireConnection;15;0;7;0\nWireConnection;15;1;22;0\nWireConnection;3;0;29;0\nWireConnection;5;0;4;0\nWireConnection;5;1;35;0\nWireConnection;6;0;3;0\nWireConnection;27;0;38;0\nWireConnection;27;1;39;0\nWireConnection;8;0;7;0\nWireConnection;8;1;19;0\nWireConnection;7;0;6;0\nWireConnection;7;1;5;0\nWireConnection;28;0;26;0\nWireConnection;33;0;11;0\nWireConnection;0;0;9;0\nASEEND*/\n//CHKSM=178161E32AD29BEE8D53374BD11F5F5769599266"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

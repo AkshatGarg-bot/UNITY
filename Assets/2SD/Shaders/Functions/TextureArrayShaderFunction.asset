@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: TextureArrayShaderFunction
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=10002\n-1909;38;1906;981;1160.9;240.1;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;1;-800,88;Float;False;InTiling;1;1;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.TextureCoordinatesNode;6;-626,72;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;20;-725.8999,255.9;Float;False;InIndex;0;0;False;1;0;INT;0;False;1;INT\nNode;AmplifyShaderEditor.TextureArrayNode;12;-324.7002,69.69989;Float;True;Property;_Array1;Array
+    1;0;0;None;0;Object;-1;Auto;False;4;0;FLOAT2;0,0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;5;COLOR;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;0;98,74;Float;False;True;Output;0;1;0;COLOR;0.0;False;0\nWireConnection;6;0;1;0\nWireConnection;12;0;6;0\nWireConnection;12;1;20;0\nWireConnection;0;0;12;0\nASEEND*/\n//CHKSM=888037CB234523CCBA0A396E4D956A393D2F32FA"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: New ShaderFunction
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=7201\n-1913;29;1906;1004;953;502;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;1;-373,-58;Float;False;Input;1;0;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;2;-368,64;Float;False;Input;1;1;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-211,-5;Float;False;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;0;0,0;Float;False;True;Output;-1;1;0;FLOAT;0.0;False;0\nWireConnection;3;0;1;0\nWireConnection;3;1;2;0\nWireConnection;0;0;3;0\nASEEND*/\n//CHKSM=47E08F24327195431B8A2D54268DC963488C333E"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

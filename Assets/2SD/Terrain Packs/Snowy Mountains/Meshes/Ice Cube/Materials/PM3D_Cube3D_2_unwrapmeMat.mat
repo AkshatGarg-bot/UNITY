@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PM3D_Cube3D_2_unwrapmeMat
+  m_Shader: {fileID: 4800000, guid: 776c6d2d1f2e73b49b2e5b908197f66d, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DummyTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ice_01_metallic:
+        m_Texture: {fileID: 2800000, guid: 67da6d9ef984e8a4581ae2f501b42841, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shardmask:
+        m_Texture: {fileID: 2800000, guid: 72946bcc05885c445bc08783b727f88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 72946bcc05885c445bc08783b727f88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: ee0abe295986b0145acaca7b0f338131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 95bfa2a30f0bd77428f3a66c9e2eb64f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedo:
+        m_Texture: {fileID: 2800000, guid: 63d2088f0d5c1084c8b39c6d445b015f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ice_bubble_normal:
+        m_Texture: {fileID: 2800000, guid: e15f1277c4f6b64408408c254ecc7357, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _shard:
+        m_Texture: {fileID: 2800000, guid: ee0abe295986b0145acaca7b0f338131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _shardmask:
+        m_Texture: {fileID: 2800000, guid: 72946bcc05885c445bc08783b727f88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _snow_basecolorremap:
+        m_Texture: {fileID: 2800000, guid: 083bf957bf8f4204aae940a0386be20f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _snow_normal:
+        m_Texture: {fileID: 2800000, guid: f37d06b82ffdfb34bb385d0b28f218a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BubbleDepth: 1
+    - _BubbleScale: 1.68
+    - _BubbleStrength: 1.94
+    - _BumpScale: 1
+    - _ChromaticAberration: 0.005
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float0: 0
+    - _Float1: 0.5
+    - _Float2: 0
+    - _Float3: 1.46
+    - _Float4: 1.24
+    - _Float5: 0.123
+    - _Float6: 0
+    - _Float7: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaskClipValue: 0.5
+    - _Max: 1
+    - _Metallic: 0
+    - _Min: -0.03
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimDensity: 1
+    - _RimStrength: 0.63
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessValue: 4
+    - _ToggleSwitch0: 0
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.256
+    - _TransScattering: 4.5
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _TransmissionMultiplier: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __bias: 0.96
+    - __dirty: 0
+    - __power: 0.94
+    - __sacle: -0.48
+    - _aoboost: 1
+    - _bias: 0.16
+    - _bubbletiling: 7.7
+    - _crackdistance: -3.56
+    - _fresnelbias: 1.22
+    - _fresnelmax: 0.46
+    - _fresnelmultiplier: 0.75
+    - _fresnelpower: 3
+    - _fresnelscale: 0.28
+    - _length: 48
+    - _max: 0.68
+    - _min: 0
+    - _noisescale: 3.88
+    - _normalbias: 0.1
+    - _normalstrength: 1
+    - _offset: 4.8
+    - _power: 1.69
+    - _refraction: 2.26
+    - _remapbias: 17.57
+    - _rimmultiply: 1
+    - _rimwidth: 0.432
+    - _scale: 0.41
+    - _shardcontrast: 10
+    - _shardcontrast_: 5.57
+    - _shardcontrasttranscluency: 7.17
+    - _shardopacity: 0.991
+    - _shardopacity_: 0.89
+    - _shardscale: 0.19
+    - _shardtranscluency: 1
+    - _smoothness: 1
+    m_Colors:
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 0.28627878, g: 0.3476367, b: 0.3779994, a: 1}
+    - _Transcluencytint: {r: 1, g: 0, b: 0, a: 0}
+    - _TransmissionColor: {r: 0.941, g: 0.9951171, b: 1, a: 0}
+    - _fresnelcolor: {r: 0.81617653, g: 0.97718054, b: 1, a: 0}
+    - _mastertint: {r: 1, g: 1, b: 1, a: 0}
+    - _shardcolor: {r: 0.726984, g: 0.80315006, b: 0.828, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: SplatBlend
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=7201\n-1913;29;1906;1004;945.1001;344.7;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;15;-636.5999,356.0001;Float;False;Input;4;0;False;1;0;FLOAT4;0.0,0,0,0;False;1;FLOAT4\nNode;AmplifyShaderEditor.BreakToComponentsNode;16;-421.5999,366.0001;Float;False;FLOAT4;1;0;FLOAT4;0,0,0,0;False;16;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;13;-433,-129;Float;False;DetailBase;1;1;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;2;-401,-15;Float;False;Detail1;1;3;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;4;-398,58;Float;False;Detail2;1;4;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;10;-19,-35;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0,0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;5;-396,135;Float;False;Detail3;1;5;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;14;190,38;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;11;391,109;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;1;-291.9001,238.9;Float;False;Detail0;1;2;True;1;0;FLOAT;0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;17;593.4,184.0001;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;0;829.4001,182.3;Float;False;True;Output;-1;1;0;FLOAT;0.0;False;0\nWireConnection;16;0;15;0\nWireConnection;10;0;13;0\nWireConnection;10;1;2;0\nWireConnection;10;2;16;1\nWireConnection;14;0;10;0\nWireConnection;14;1;4;0\nWireConnection;14;2;16;2\nWireConnection;11;0;14;0\nWireConnection;11;1;5;0\nWireConnection;11;2;16;3\nWireConnection;17;0;11;0\nWireConnection;17;1;1;0\nWireConnection;17;2;16;0\nWireConnection;0;0;17;0\nASEEND*/\n//CHKSM=07E95D768CB82AC59E88C97CB10AC9F899990CFC"
+  m_functionName: 
+  m_description: Lerps textures based on masks
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

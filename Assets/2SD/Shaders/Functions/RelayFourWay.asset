@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: RelayFourWay
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=13103\n-1913;58;1906;1004;1011;412;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;2;-469,73;Float;False;In1;1;1;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;1;-474,-45;Float;False;In0;1;0;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;3;-466,179;Float;False;In2;1;2;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;4;-468,278;Float;False;In3;1;3;True;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;6;24,183;Float;False;False;Out2;2;1;0;FLOAT;0.0;False;0\nNode;AmplifyShaderEditor.FunctionOutput;7;23,282;Float;False;False;Out3;3;1;0;FLOAT;0.0;False;0\nNode;AmplifyShaderEditor.FunctionOutput;5;11,74;Float;False;False;Out1;1;1;0;FLOAT;0.0;False;0\nNode;AmplifyShaderEditor.FunctionOutput;0;16,-28;Float;False;True;Out0;0;1;0;FLOAT;0.0;False;0\nWireConnection;6;0;3;0\nWireConnection;7;0;4;0\nWireConnection;5;0;2;0\nWireConnection;0;0;1;0\nASEEND*/\n//CHKSM=52BA48EF7F3360A2F8FAA05750D6179E43318D51"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

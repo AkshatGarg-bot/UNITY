@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2SD_UV Distortion Particle Shader
+  m_Shader: {fileID: 4800000, guid: 886494f6230312f41819a8ac9f5e0bf6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 223ff8b4404dd65479584ef8f39adfd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OffsetTexture:
+        m_Texture: {fileID: 2800000, guid: 5fb8e267220cf764fb3b4390a7889c96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 5fb8e267220cf764fb3b4390a7889c96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedo:
+        m_Texture: {fileID: 2800000, guid: d59ab761e83f1d849a98c58e76d212e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _asd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flowmap:
+        m_Texture: {fileID: 2800000, guid: 2bb7915a072176745a17c1c994265748, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortionAmount: 0.01
+    - _Float0: 1
+    - _FlowPower: 0.25
+    - _FlowSpeed: 3
+    - _MaskClipValue: 0.5
+    - _Tiling: 5
+    - _ToggleSwitch0: 1
+    - __dirty: 0
+    - _flowPower: 0.25
+    - _posterization: 1
+    - _snowstrength: 0.727
+    - _tiling: 6.5
+    m_Colors:
+    - _Color0: {r: 2, g: 2, b: 2, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.8145, g: 0.8145, b: 0.8145, a: 1}
+  m_BuildTextureStacks: []
